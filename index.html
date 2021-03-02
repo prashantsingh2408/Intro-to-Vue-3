@@ -30,6 +30,11 @@
             </ul>
             <!-- solution -->
             <div v-for="variant in variants" :key="variant.id">{{ variant.color }}</div>
+
+            <!-- 3d array -->
+            <div v-for="value in array" :id="array.id">
+              {{value.color.version2}}
+            </div>
           </div>
         </div>
       </div>
